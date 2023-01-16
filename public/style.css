@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1035956094301896715/1064635607718051961/image.png");
+    background-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.key {
+    cursor: pointer;
+    user-select: none;
+    color: black;
+    font-size: 300px;
+    font-weight: bold;
+    animation: shake 0.01s infinite;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.key:hover {
+    animation-play-state: paused;
+}
+
+#stats {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    color: red;
+    font-size: 50px;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(5px, 5px) rotate(5deg);
+    }
+
+    50% {
+        transform: translate(0, 0) rotate(0eg);
+    }
+
+    75% {
+        transform: translate(-5px, 5px) rotate(-5deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
