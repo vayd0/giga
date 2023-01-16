@@ -14,7 +14,6 @@ body {
     color: black;
     font-size: 300px;
     font-weight: bold;
-    animation: shake 0.01s infinite;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -30,6 +29,12 @@ body {
     bottom: 1rem;
     color: red;
     font-size: 50px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .key {
+        animation: shake 0.01s infinite;
+    }
 }
 
 @keyframes shake {
