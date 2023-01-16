@@ -24,11 +24,6 @@ body {
     .key {
         display:none;
     }
-
-    .key:after {
-        font-size: 100px;
-        content: 'ca marche pas sur tel';
-    }
 }
 
 @media only screen and (min-width: 1000px) {
