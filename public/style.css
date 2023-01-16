@@ -22,6 +22,10 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .key {
+        display:none;
+    }
+
+    .key:after {
         font-size: 100px;
         content: 'ca marche pas sur tel';
     }
