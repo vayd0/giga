@@ -8,6 +8,18 @@ body {
     margin: 0;
 }
 
+.key {
+    font-size: 300px;
+    animation: shake 0.01s infinite;
+    cursor: pointer;
+    user-select: none;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .key:hover {
     animation-play-state: paused;
 }
@@ -23,20 +35,6 @@ body {
 @media only screen and (max-width: 1000px) {
     .key {
         display:none;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .key {
-        font-size: 300px;
-        animation: shake 0.01s infinite;
-        cursor: pointer;
-        user-select: none;
-        color: black;
-        font-weight: bold;
-        position: absolute;
-        top: 50%;
-        transform: translate(-50%, -50%);
     }
 }
 
