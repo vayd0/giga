@@ -8,7 +8,7 @@ window.onunhandledrejection = function (event) {
 
 let mouseDown = false;
 let sounds = {
-    key: "/giga.m4a"
+    key: "https://cdn.discordapp.com/attachments/978761632597565550/1065003672498618418/videoplayback.m4a"
 }
 
 // preload audio files
